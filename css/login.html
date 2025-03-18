@@ -1,0 +1,70 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <style>
+            body {
+                background-color: #525151;
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .card {
+                background-color: aliceblue;
+                border: 1px, solid, #1a1a1a;
+                border-radius: 10px;
+                padding: 10px;
+                width: 350px;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+            h2{
+                text-align: center;
+                color: green;
+            }
+            input{
+                padding: 5px;
+                border: 1px, solid, rgb(176, 175, 175);
+                border-radius: 5px;
+                height: 30px;
+            }
+            .name{
+                display: flex; 
+                justify-content: space-between;
+            }
+            button {
+                background-color: green;
+                padding: 8px;
+                color: antiquewhite;
+                border-radius: 10px;
+                width: 40%;
+                margin: auto;
+                font-weight: bolder;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <form action="">
+                <h2>Login</h2>
+                <input type="email" placeholder="Email">
+                <div class="name">
+                    <input type="text" placeholder="Firstname" style="width: 45%;">
+                    <input type="text" placeholder="Lastname" style="width: 45%;">
+                </div>
+                <input type="password" placeholder="password" style="width: 70%; margin: auto;">
+                <button type="submit">Sign Up</button>
+
+            </form>
+        </div>
+    </body>
+</html>
